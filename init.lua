@@ -2,6 +2,9 @@
 require("config.lazy")
 local conform = require("conform")
 
+-- visual mode color setup
+vim.api.nvim_set_hl(0, "Visual", { bg = "#7d6b72" })
+-- prettier formatting setup
 conform.setup({
   formatters_by_ft = {
     -- Add the file types you want to format with prettier
