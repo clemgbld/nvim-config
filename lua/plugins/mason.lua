@@ -8,6 +8,8 @@ return {
       "shfmt",
       "flake8",
       "codelldb",
+      "js-debug-adapter",
+      "node-debug2-adapter",
     },
   },
 }
